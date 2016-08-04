@@ -1,0 +1,36 @@
+.module {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(pictures/background3.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.mid  {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.maintext h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 3.9vw;
+  color: white;
+  text-transform: uppercase;
+}
+
+.subtext p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 1.5vw;
+}
+
+
+    
